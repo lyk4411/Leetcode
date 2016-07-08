@@ -42,4 +42,10 @@ public class AddBinary {
 		}
 		return res.toString();
 	}
+
+	public static  void main(String[] args){
+		AddBinary ab = new AddBinary();
+		String result = ab.addBinary("1111","1010101010");
+		System.out.println(result);
+	}
 }
